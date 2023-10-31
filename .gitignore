@@ -1,8 +1,7 @@
 ### IntelliJ IDEA ###
 out/
-!**/src/ComputerSimulator/**/out/
+!**/src/ComputerSimulatorGroup9/**/out/
 !**/src/test/**/out/
-
 ### Eclipse ###
 .apt_generated
 .classpath
@@ -12,18 +11,15 @@ out/
 .springBeans
 .sts4-cache
 bin/
-!**/src/ComputerSimulator/**/bin/
+!**/src/ComputerSimulatorGroup9/**/bin/
 !**/src/test/**/bin/
-
 ### NetBeans ###
 /nbproject/private/
 /nbbuild/
 /dist/
 /nbdist/
 /.nb-gradle/
-
 ### VS Code ###
 .vscode/
-
 ### Mac OS ###
 .DS_Store

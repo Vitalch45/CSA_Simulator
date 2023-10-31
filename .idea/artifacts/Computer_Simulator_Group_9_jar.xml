@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Computer_Simulator_Group_9:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/Computer_Simulator_Group_9_jar</output-path>
+    <root id="archive" name="Computer_Simulator_Group_9.jar">
+      <element id="module-output" name="Computer_Simulator_Group_9" />
+    </root>
+  </artifact>
+</component>
