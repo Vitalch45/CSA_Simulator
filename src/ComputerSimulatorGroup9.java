@@ -676,10 +676,12 @@ private String Address(String num){
                             "0" +
                             Address(decode[1]);
                 }
-                valu += OpCode(decode[0],2) +
-                        OpCode(decode[1],2) +
-                        Integer.toBinaryString(Integer.parseInt(decode[3])) +
-                        Address(decode[2]);
+                else {
+                    valu += OpCode(decode[0], 2) +
+                            OpCode(decode[1], 2) +
+                            Integer.toBinaryString(Integer.parseInt(decode[3])) +
+                            Address(decode[2]);
+                }
             }
         }
         catch(NumberFormatException e){
@@ -838,7 +840,7 @@ System.out.println(valu+"value");
                 }
             }
             String timestamp = new SimpleDateFormat("yyyyMMddHHmmss").format(new Date());
-            String fileName = "output_" + timestamp + ".txt";
+            String fileName = "assembler_" + timestamp + ".txt";
             String filePath = "./" + fileName;  // "./" specifies the current directory.
 
             BufferedWriter writer = null;
